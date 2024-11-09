@@ -57,6 +57,11 @@ header li {
     padding: 0 20px;
 }
 
+header li:hover {
+    color: var(--light-color-primary);
+    opacity: 0.1;
+}
+
 header a {
     text-decoration: none;
 }
@@ -173,10 +178,16 @@ header a {
 #call-to-action .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 30px;
+    justify-content: space-around;
     background: var(--blue-primary);
     color: var(--light-color-primary);
-    padding: 30px 300px;
+    padding: 30px;
+}
+
+.btn-container {
+    height: 100%;
+    justify-content: center;
 }
 
 #call-to-action h4 {
